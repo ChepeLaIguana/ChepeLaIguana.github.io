@@ -1,0 +1,224 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    min-height: 70px;
+    background: rgba(5, 7, 12, 0.70);
+}
+
+body{
+    background-image: url("../img/fondo2.0.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+a:hover{
+    transform: scale(1.15);
+}
+
+nav a{
+    font-weight: 700;
+    padding: 15px;
+}
+nav a:hover{
+    color: #0077b6;
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.div1{
+    background-color: darkgray;
+    width: 500px;
+    padding: 35px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.div2{
+    width: 500px;
+    padding: 35px;
+    margin-left: 30px;
+}
+
+p{
+    width: 80%;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    
+}
+
+.div3{
+    background-color: darkgray;
+    width: 500px;
+    padding: 35px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.div4{
+    width: 500px;
+    padding: 35px;
+    margin-left: 30px;
+}
+
+.contenedor3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    
+}
+
+.div5{
+    background-color: darkgray;
+    width: 500px;
+    padding: 35px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.div6{
+    width: 500px;
+    padding: 35px;
+    margin-left: 30px;
+}
+
+.contenedor4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    
+}
+
+.div7{
+    background-color: darkgray;
+    width: 500px;
+    padding: 35px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.div8{
+    width: 500px;
+    padding: 35px;
+    margin-left: 30px;
+}
+
+.contenedor5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    
+}
+
+.div9{
+    background-color: darkgray;
+    width: 500px;
+    padding: 35px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.div10{
+    width: 500px;
+    padding: 35px;
+    margin-left: 30px;
+}
+
+.contenedor6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    
+}
+
+.div11{
+    background-color: darkgray;
+    width: 500px;
+    padding: 35px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.div12{
+    width: 500px;
+    padding: 35px;
+    margin-left: 30px;
+}
+
+.about{
+    background-color: darkgray;
+    width: 500px;
+    padding: 35px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: darkgray;
+    color: black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
